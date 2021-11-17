@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="threed\boundingbox.cpp" />
+    <ClCompile Include="threed\isomesher.cpp" />
+    <ClCompile Include="threed\isomesher_dc.cpp" />
+    <ClCompile Include="threed\isosurface.cpp" />
+    <ClCompile Include="threed\matrix.cpp" />
+    <ClCompile Include="threed\mesh.cpp" />
+    <ClCompile Include="threed\meshface.cpp" />
+    <ClCompile Include="threed\plane.cpp" />
+    <ClCompile Include="threed\qef.cpp" />
+    <ClCompile Include="threed\transform.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="DualContouring.cpp" />
+    <ClCompile Include="ImplicitIsosurface.cpp" />
+    <ClCompile Include="Stdafx.cpp" />
+    <ClCompile Include="box.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="threed\boundingbox.h" />
+    <ClInclude Include="threed\color.h" />
+    <ClInclude Include="threed\isomesher.h" />
+    <ClInclude Include="threed\isomesher_dc.h" />
+    <ClInclude Include="threed\isosurface.h" />
+    <ClInclude Include="threed\matrix.h" />
+    <ClInclude Include="threed\mesh.h" />
+    <ClInclude Include="threed\meshface.h" />
+    <ClInclude Include="threed\misc.h" />
+    <ClInclude Include="threed\object.h" />
+    <ClInclude Include="threed\plane.h" />
+    <ClInclude Include="threed\qef.h" />
+    <ClInclude Include="threed\transform.h" />
+    <ClInclude Include="threed\vector.h" />
+    <ClInclude Include="DualContouring.h" />
+    <ClInclude Include="ImplicitIsosurface.h" />
+    <ClInclude Include="InterfaceIsosurface.h" />
+    <ClInclude Include="Face.h" />
+    <ClInclude Include="box.h" />
+  </ItemGroup>
+</Project>
